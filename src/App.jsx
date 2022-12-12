@@ -28,11 +28,11 @@ const siteProps = {
   title: "Python utviklar og maskinlæring",
   email: "trymsandven@gmail.com",
   gitHub: "TrymSandven",
-  instagram: "microsoft",
+  instagram: "",
   linkedIn: "trym-sandven-29200522b",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
