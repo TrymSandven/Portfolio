@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Portfolio - Trym Sandven",
   "source": "src/index.html",
-  "homepage": "https://TrymSandven.github.io/",
+  "homepage": "https://TrymSandven.github.io/Portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://TrymSandven.github.io/'",
+    "build-gh": "parcel build --public-url 'https://TrymSandven.github.io/Portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
