@@ -113,7 +113,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Laga av {name}
       </p>
     </div>
   );
