@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "Løysningsforslag for Advent of Code 2022",
-    description:
-      "Github repo med løysningar for Advent of Code 2022",
+    description: "Github repo med løysningar for Advent of Code 2022",
     url: "https://github.com/TrymSandven/Adventskalender-2022",
   },
   {
