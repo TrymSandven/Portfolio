@@ -56,10 +56,10 @@ const projectList = [
   },
 ];
 
-const Portfolie = () => {
+const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2 style={{ paddingTop: "3rem" }}>Portfolio</h2>
+      <h2 style={{ paddingTop: "3rem" }}>Portfolie</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
