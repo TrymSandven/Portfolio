@@ -56,7 +56,7 @@ const projectList = [
   },
 ];
 
-const Portfolio = () => {
+const Portfolie = () => {
   return (
     <section className="light" id="portfolio">
       <h2 style={{ paddingTop: "3rem" }}>Portfolio</h2>
