@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Trym Sandven",
-  title: "Python utviklar og maskinlæring",
+  title: "Python utviklar med spesialisering i maskinlæring",
   email: "trymsandven@gmail.com",
   gitHub: "TrymSandven",
   instagram: "",
