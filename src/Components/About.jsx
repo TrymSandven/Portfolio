@@ -5,6 +5,8 @@
  */
 
 import React from "react";
+import {useWindowDimensions} from "react-native";
+
 
 /**
  * About background image
@@ -41,6 +43,8 @@ const detailOrQuote =
   " Eg har erfaring med å jobbe med data og å lage nettsider. Eg er ein god teamspelar som likar å jobbe med andre. Eg er fleksibel og likar å lære nye ting.";
 
 const About = () => {
+  const {fontScale} = useWindowDimensions(); // import useWindowDimensions()
+  const styles = makeStyles(fontScale); // pass in fontScale to the StyleSheet
   return (
     <section className="light" id="about">
       <img className="background" src={image} alt={imageAltText} />
@@ -59,7 +63,7 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            columns: 1,
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",

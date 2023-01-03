@@ -5,6 +5,7 @@
  */
 
 import React from "react";
+//import {useWindowDimensions} from 'react-native';
 
 import About from "./Components/About";
 import Footer from "./Components/Footer";
@@ -23,6 +24,8 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
+
+
 const siteProps = {
   name: "Trym Sandven",
   title: "Python utviklar med spesialisering i maskinlæring",
@@ -39,6 +42,7 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+
   return (
     <div id="main">
       <Header />
