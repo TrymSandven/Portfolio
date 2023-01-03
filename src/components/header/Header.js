@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import headerImage from '../../assets/header.png'
 import Button from '../UI/button/Button'
 import "../UI/button/Button.css"
 
