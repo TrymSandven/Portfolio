@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><a href='#'>Features</a></li>
           <li><a href='#'>Download</a></li>
           <li><a href='#'>Subscribe</a></li>
-          <li><a href='#' className='btn btn-dark'>Get Started</a></li>
+          <li className='nav-btn'><a href='#' className='btn btn-dark'>Get Started</a></li>
         </ul>
       </menu>
       <div className='menu-icons' onClick={toggleMenu}>
