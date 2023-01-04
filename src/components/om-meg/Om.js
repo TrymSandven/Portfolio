@@ -1,6 +1,6 @@
 import React from 'react'
-import './Features.css'
-import Feature from './Feature';
+import './Om.css'
+import Feature from './Skill';
 import { featureList } from './data';
 
 import bilde from '../../assets/om-meg.jpg'
@@ -16,7 +16,7 @@ const Features = () => {
           <BsFillBookmarkStarFill color="orangered" size={30} />
           <h2>Om meg</h2>
           <p className="u-text-small">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae veniam dolorum repellendus obcaecati minus voluptas neque dolore similique.
+          Nyutdanna utviklar frå UiB med interesse for maskinlæring og webutvikling. Eg har erfaring med å jobbe med data og å lage nettsider. Eg er ein god teamspelar som likar å jobbe med andre. Eg er fleksibel og likar å lære nye ting.
           </p>
         </div>
         <div className="features-content">

@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Faq.css";
+
+import { MdOutlineLibraryBooks } from "react-icons/md";
 
 
 const projectList = [
@@ -7,24 +9,24 @@ const projectList = [
     title: "Prototype arbeid for NTB Media",
     description:
       "Semesteroppdrag for NTB Media. Laget en prototype for en ny automatisering av værnyheter.",
-    url: " https://teklab.uib.no/",
-  },
-  {
-    title: "Løysningsforslag for Advent of Code 2022",
-    description: "Github repo med løysningar for Advent of Code 2022",
-    url: "https://github.com/TrymSandven/Adventskalender-2022",
-  },
-  {
-    title: "CV",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: " https://teklab.uib.no/artikler/vaer-robot-a-effektivisere-vaer-nytt-gjennom-automatiserte-tekster/",
   },
   {
     title: "Maskinlæring med data frå Spotify",
-    description:
-      "Maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
+    description: "Maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
     url: "https://github.com/TrymSandven/Gruppeeksamen_2022/blob/main/group_exam22.ipynb",
+  },
+  {
+    title: "Portfolio nettside",
+    description:
+      "Kjeldekode til denne nettsida har eit eige Github repo. Laget med React og CSS.",
+    url: "https://github.com/TrymSandven/Portfolio",
+  },
+  {
+    title: "Data analyse av F1 data",
+    description:
+      "Data analyse av F1 data. Laget med Python og Jupyter Notebook.",
+    url: "https://github.com/TrymSandven/F1-Dataanalyse",
   },
 ];
 
@@ -32,6 +34,7 @@ const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
       <div className="u-title">
+        <MdOutlineLibraryBooks color="orangered" size={30} />
       <h2>Portfolie</h2>
       </div>
       <div>

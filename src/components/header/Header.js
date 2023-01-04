@@ -20,10 +20,10 @@ const Header = () => {
               <span>Python og webutiklar</span>
               <span>Med spesialisering i maskinlæring</span>
             </h1>
-            <p className='u-text-small u-text-light'>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+            <p className='u-text-small u-text-light'> Nyutdanna programmvareutviklar med stor interesse for å lære nye verktøy og metodar</p>
             <div className='header-cta'>
-            <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"}/>
-            <Button text={"How it works"} btnClass={"btn-orange"} href={"#"}/>
+            <Button text={"Om meg"} btnClass={"btn-dark"} href={"#"}/>
+            <Button text={"Portfolie"} btnClass={"btn-orange"} href={"#"}/>
             </div>
           </div>
           <div className='header-right'>

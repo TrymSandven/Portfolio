@@ -1,5 +1,5 @@
 import React from "react";
-import "./Feature.css";
+import "./Skill.css";
 
 import { BsHexagon } from "react-icons/bs";
 
