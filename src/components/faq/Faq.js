@@ -28,7 +28,7 @@ const projectList = [
   {
     title: "Data analyse av F1 data",
     description:
-      "Data analyse av F1 data. Laget med Python og Jupyter Notebook.",
+      "Data analyse av F1. Laget med Python og Jupyter Notebook.",
     url: "https://github.com/TrymSandven/F1-Dataanalyse",
   },
 ];
