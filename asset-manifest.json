@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e83f0bd6.css",
-    "main.js": "/Portfolio/static/js/main.796e60ef.js",
+    "main.css": "/Portfolio/static/css/main.428a05cf.css",
+    "main.js": "/Portfolio/static/js/main.e0bdd519.js",
     "static/media/om-meg.jpg": "/Portfolio/static/media/om-meg.e7ab0d2663d51e7fbd08.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.e83f0bd6.css.map": "/Portfolio/static/css/main.e83f0bd6.css.map",
-    "main.796e60ef.js.map": "/Portfolio/static/js/main.796e60ef.js.map"
+    "main.428a05cf.css.map": "/Portfolio/static/css/main.428a05cf.css.map",
+    "main.e0bdd519.js.map": "/Portfolio/static/js/main.e0bdd519.js.map"
   },
   "entrypoints": [
-    "static/css/main.e83f0bd6.css",
-    "static/js/main.796e60ef.js"
+    "static/css/main.428a05cf.css",
+    "static/js/main.e0bdd519.js"
   ]
 }
