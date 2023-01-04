@@ -26,9 +26,9 @@ const projectList = [
     url: "https://github.com/TrymSandven/Portfolio",
   },
   {
-    title: "Data analyse av F1 data",
+    title: "Analyse av F1 data",
     description:
-      "Data analyse av F1. Laget med Python og Jupyter Notebook.",
+      "Data analyse av rundetider i F1. Laget med Python og Jupyter Notebook gjennom API.",
     url: "https://github.com/TrymSandven/F1-Dataanalyse",
   },
 ];
