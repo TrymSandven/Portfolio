@@ -1,10 +1,12 @@
-import React from 'react'
-import './Button.css'
+import React from "react";
+import "./Button.css";
 
-const Button = ({text, btnClass, href}) => {
+const Button = ({ text, btnClass, href }) => {
   return (
-    <a href={href} className={`btn ${btnClass}`}>{text}</a>
-  )
-}
+    <a href={href} className={`btn ${btnClass}`}>
+      {text}
+    </a>
+  );
+};
 
-export default Button
+export default Button;

@@ -6,7 +6,6 @@ import { MdOutlineLibraryBooks } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 const projectList = [
   {
     title: "Prototype arbeid for NTB Media",
@@ -16,7 +15,8 @@ const projectList = [
   },
   {
     title: "Maskinlæring med data frå Spotify",
-    description: "Maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
+    description:
+      "Maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
     url: "https://github.com/TrymSandven/Gruppeeksamen_2022/blob/main/group_exam22.ipynb",
   },
   {
@@ -34,20 +34,19 @@ const projectList = [
 ];
 
 const Portfolio = () => {
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-      });
-    }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section className="light" id="portfolio">
       <div className="u-title" data-aos="fade-up">
         <MdOutlineLibraryBooks color="orangered" size={30} />
-      <h2>Portfolie</h2>
+        <h2>Portfolie</h2>
       </div>
       <div>
-        <div>
-        </div>
+        <div></div>
         <div className="flex-box" data-aos="zoom-in">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
