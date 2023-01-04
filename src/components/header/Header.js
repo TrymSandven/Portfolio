@@ -7,6 +7,7 @@ import { TbBrandPython } from 'react-icons/tb';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
 import { TbBrandHtml5 } from 'react-icons/tb';
 import { TbBrandCss3 } from 'react-icons/tb';
+import { BsMouse } from 'react-icons/bs';
 
 
 const Header = () => {
@@ -19,21 +20,24 @@ const Header = () => {
               <span>Python og webutiklar</span>
               <span>Med spesialisering i maskinlæring</span>
             </h1>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+            <p className='u-text-small u-text-light'>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
             <div className='header-cta'>
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"}/>
             <Button text={"How it works"} btnClass={"btn-orange"} href={"#"}/>
             </div>
           </div>
           <div className='header-right'>
-              <div className='col'>
                 <TbBrandPython color='#FFF' size={100}/>
                 <AiOutlineConsoleSql color='#FFF' size={100}/>
                 <TbBrandHtml5 color='#FFF' size={100}/>
                 <TbBrandCss3 color='#FFF' size={100}/>
               </div>
             </div>
-          </div>
+            <div className='floating-icon'>
+              <a href='#features'>
+                <BsMouse color='#FFF' size={25} className='mouse'/>
+              </a>
+            </div>
     </section>
   )
 }
