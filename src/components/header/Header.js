@@ -30,8 +30,8 @@ const Header = () => {
             </h1>
             <p className='u-text-small u-text-light'> Nyutdanna programmvareutviklar med stor interesse for å lære nye verktøy og metodar</p>
             <div className='header-cta'>
-            <Button text={"Om meg"} btnClass={"btn-dark"} href={"#"}/>
-            <Button text={"Portfolie"} btnClass={"btn-orange"} href={"#"}/>
+            <Button text={"Om meg"} btnClass={"btn-dark"} href={"#features"}/>
+            <Button text={"Portfolie"} btnClass={"btn-orange"} href={"#portfolio"}/>
             </div>
           </div>
           <div className='header-right' data-aos='fade-left'>
