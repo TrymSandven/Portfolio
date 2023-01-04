@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Faq.css";
 
 import { MdOutlineLibraryBooks } from "react-icons/md";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const projectList = [
@@ -31,16 +34,21 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+      });
+    }, []);
   return (
     <section className="light" id="portfolio">
-      <div className="u-title">
+      <div className="u-title" data-aos="fade-up">
         <MdOutlineLibraryBooks color="orangered" size={30} />
       <h2>Portfolie</h2>
       </div>
       <div>
         <div>
         </div>
-        <div className="flex-box">
+        <div className="flex-box" data-aos="zoom-in">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">

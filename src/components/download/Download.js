@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import './Download.css'
 
 import { VscGithubInverted } from 'react-icons/vsc'
@@ -6,10 +6,18 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Download = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section id='contact'>
-      <div className='container contact'>
+      <div className='container contact' data-aos="fade-up">
         <h2>Kontakt informasjon</h2>
         <p className='u-text-small u-text-light'>
           Om dette skulle være interessant for deg, ta kontakt med meg på en av disse kanalene
