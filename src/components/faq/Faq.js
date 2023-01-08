@@ -10,17 +10,17 @@ const projectList = [
   {
     title: "Prototype arbeid for NTB Media",
     description:
-      "Semesteroppdrag for NTB Media. Laget en prototype for en ny automatisering av værnyheter.",
+      "Semesteroppgave for NTB Media. Var med å lage en prototype for automatisering av værnyheter.",
     url: " https://teklab.uib.no/artikler/vaer-robot-a-effektivisere-vaer-nytt-gjennom-automatiserte-tekster/",
   },
   {
     title: "Maskinlæring med data frå Spotify",
     description:
-      "Maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
+      "Semesteroppgave i maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
     url: "https://github.com/TrymSandven/Gruppeeksamen_2022/blob/main/group_exam22.ipynb",
   },
   {
-    title: "Portfolio nettside",
+    title: "Portefølje nettside",
     description:
       "Kjeldekode til denne nettsida har eit eige Github repo. Laget med React og CSS.",
     url: "https://github.com/TrymSandven/Portfolio",
@@ -28,7 +28,7 @@ const projectList = [
   {
     title: "Analyse av F1 data",
     description:
-      "Data analyse av rundetider i F1. Laget med Python og Jupyter Notebook gjennom API.",
+      "Data analyse av rundetider i F1. Laget med Python og Jupyter Notebook gjennom Fast F1 Python pakken.",
     url: "https://github.com/TrymSandven/F1-Dataanalyse",
   },
 ];
@@ -43,7 +43,7 @@ const Portfolio = () => {
     <section className="light" id="portfolio">
       <div className="u-title" data-aos="fade-up">
         <MdOutlineLibraryBooks color="orangered" size={30} />
-        <h2>Portfolie</h2>
+        <h2>Portefølje</h2>
       </div>
       <div>
         <div></div>

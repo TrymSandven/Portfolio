@@ -20,7 +20,7 @@ const Download = () => {
       <div className="container contact" data-aos="fade-up">
         <h2>Kontakt informasjon</h2>
         <p className="u-text-small u-text-light">
-          Om dette skulle være interessant for deg, ta kontakt med meg på en av
+          Om dette skulle virke interessant for deg, ta kontakt med meg på en av
           disse kanalene
         </p>
         <div className="contact-icons">

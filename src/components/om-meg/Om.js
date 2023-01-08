@@ -22,10 +22,10 @@ const Features = () => {
           <BsFillBookmarkStarFill color="orangered" size={30} />
           <h2>Om meg</h2>
           <p className="u-text-small">
-            Nyutdanna utviklar frå UiB med interesse for maskinlæring og
-            webutvikling. Eg har erfaring med å jobbe med data og å lage
-            nettsider. Eg er ein god teamspelar som likar å jobbe med andre. Eg
-            er fleksibel og likar å lære nye ting.
+             Jeg er en nyutdannet utvikler fra UiB med interesse for maskinlæring og
+            webutvikling. Gjennom studieløpet mitt har jeg fått erfaring med å jobbe med alt fra maskinlæring til og å utvikle
+            nettsider. Jeg ser på meg selv som en god teamspiller som liker å jobbe med andre. Jeg er også veldig glad i
+            å løse problemer og å lære nye ting.
           </p>
         </div>
         <div className="features-content">

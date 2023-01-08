@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="container navbar">
       <div className="logo">
-        <p className="logo-text">Portfolio</p>
+        <p className="logo-text">Portefølje</p>
       </div>
       <menu>
         <ul
@@ -24,7 +24,7 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#header">Home</a>
+            <a href="#">Heim</a>
           </li>
           <li>
             <a href="#features">Om meg</a>
@@ -33,7 +33,7 @@ const Navbar = () => {
             <a href="#portfolio">Portfolie</a>
           </li>
           <li className="nav-btn">
-            <Button text={"Kontaktinfo"} btnClass={"btn-dark"} href={"#faq"} />
+            <Button text={"Kontaktinfo"} btnClass={"btn-dark"} href={"#contact"} />
           </li>
         </ul>
       </menu>
