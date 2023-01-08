@@ -24,18 +24,18 @@ const Header = () => {
         <div className="header-left" data-aos="fade-right">
           <h1>
             <span>Trym Sandven</span>
-            <span>Python og webutiklar</span>
+            <span>Python og webutikler</span>
             <span>Med spesialisering i maskinlæring</span>
           </h1>
           <p className="u-text-small u-text-light">
             {" "}
-            Nyutdanna programmvareutviklar med stor interesse for å lære nye
-            verktøy og metodar
+            Nyutdannet programmvareutvikler med stor interesse for å lære nye
+            verktøy og metoder
           </p>
           <div className="header-cta">
             <Button text={"Om meg"} btnClass={"btn-dark"} href={"#features"} />
             <Button
-              text={"Portfolie"}
+              text={"Portefølje"}
               btnClass={"btn-orange"}
               href={"#portfolio"}
             />

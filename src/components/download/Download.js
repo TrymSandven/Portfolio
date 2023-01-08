@@ -18,7 +18,7 @@ const Download = () => {
   return (
     <section id="contact">
       <div className="container contact" data-aos="fade-up">
-        <h2>Kontakt informasjon</h2>
+        <h2>Kontaktinformasjon</h2>
         <p className="u-text-small u-text-light">
           Om dette skulle virke interessant for deg, ta kontakt med meg på en av
           disse kanalene

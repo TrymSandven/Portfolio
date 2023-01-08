@@ -22,8 +22,7 @@ const Features = () => {
           <BsFillBookmarkStarFill color="orangered" size={30} />
           <h2>Om meg</h2>
           <p className="u-text-small">
-             Jeg er en nyutdannet utvikler fra UiB med interesse for maskinlæring og
-            webutvikling. Gjennom studieløpet mitt har jeg fått erfaring med å jobbe med alt fra maskinlæring til og å utvikle
+             Jeg er en nyutdannet utvikler fra UiB. Gjennom studieløpet mitt har jeg fått erfaring med å jobbe med alt fra maskinlæring til å utvikle
             nettsider. Jeg ser på meg selv som en god teamspiller som liker å jobbe med andre. Jeg er også veldig glad i
             å løse problemer og å lære nye ting.
           </p>

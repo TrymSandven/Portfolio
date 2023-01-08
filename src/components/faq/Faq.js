@@ -10,19 +10,19 @@ const projectList = [
   {
     title: "Prototype arbeid for NTB Media",
     description:
-      "Semesteroppgave for NTB Media. Var med å lage en prototype for automatisering av værnyheter.",
+      "Semesteroppgave for NTB Media. Var med å lage en prototype for automatisering av værnyheter. Artikkel fra Teklab.no",
     url: " https://teklab.uib.no/artikler/vaer-robot-a-effektivisere-vaer-nytt-gjennom-automatiserte-tekster/",
   },
   {
     title: "Maskinlæring med data frå Spotify",
     description:
-      "Semesteroppgave i maskinlærring som ser på data frå Spotify og prøver å predikere om eit album kjem til å vere populært eller ikkje.",
+      "Semesteroppgave i maskinlærring som ser på data fra Spotify og prøver å predikere om et album kommer til å være populært eller ikke.",
     url: "https://github.com/TrymSandven/Gruppeeksamen_2022/blob/main/group_exam22.ipynb",
   },
   {
     title: "Portefølje nettside",
     description:
-      "Kjeldekode til denne nettsida har eit eige Github repo. Laget med React og CSS.",
+      "Kildekode til denne nettsiden har et eget Github repo. Laget med React og CSS.",
     url: "https://github.com/TrymSandven/Portfolio",
   },
   {

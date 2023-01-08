@@ -24,13 +24,13 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#">Heim</a>
+            <a href="#">Hjem</a>
           </li>
           <li>
             <a href="#features">Om meg</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolie</a>
+            <a href="#portfolio">Portefølje</a>
           </li>
           <li className="nav-btn">
             <Button text={"Kontaktinfo"} btnClass={"btn-dark"} href={"#contact"} />

@@ -20,7 +20,7 @@ export const featureList = [
     id: 3,
     icon: <TbBrandHtml5 color="#0a1930" size={30} />,
     heading: "HTML5",
-    text: "HTML er grunnlaget for alle nettsider. Selv om studiiene mine ikke har hatt hovedfokus på HTML så er det noe jeg har blitt godt kjent med gjennom studietiden.",
+    text: "HTML er grunnlaget for alle nettsider. Selv om studiene mine ikke har hatt hovedfokus på HTML så er det noe jeg har blitt godt kjent med gjennom studietiden.",
   },
   {
     id: 4,
