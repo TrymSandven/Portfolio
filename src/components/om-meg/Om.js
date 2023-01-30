@@ -16,7 +16,7 @@ const Features = () => {
     });
   }, []);
   return (
-    <section id="features">
+    <section id="me">
       <div className="container features">
         <div className="u-title" data-aos="fade-up">
           <BsFillBookmarkStarFill color="orangered" size={30} />
