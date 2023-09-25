@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Faq.css";
+import pdf from "../../assets/UtfyllendeOnePage.pdf";
 
 import { MdOutlineLibraryBooks } from "react-icons/md";
 
@@ -29,7 +30,7 @@ const projectList = [
     title: "Analyse av F1 data",
     description:
       "Data analyse av rundetider i F1. Laget med Python og Jupyter Notebook gjennom Fast F1 Python pakken.",
-    url: "https://github.com/TrymSandven/F1-Dataanalyse",
+    url: pdf,
   },
 ];
 
