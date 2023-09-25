@@ -27,9 +27,9 @@ const projectList = [
     url: "https://github.com/TrymSandven/Portfolio",
   },
   {
-    title: "Analyse av F1 data",
+    title: "Utvikling av ESS Dataportal",
     description:
-      "Data analyse av rundetider i F1. Laget med Python og Jupyter Notebook gjennom Fast F1 Python pakken.",
+      "I sommerjobben hos Sikt var jeg med å utvikle en nettside for ESS. Nettsiden er laget med Vue, Typescript og Tailwind.",
     url: pdf,
   },
 ];
@@ -63,3 +63,4 @@ const Portfolio = () => {
   );
 };
 export default Portfolio;
+ 
